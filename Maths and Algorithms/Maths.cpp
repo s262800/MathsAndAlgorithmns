@@ -1,16 +1,20 @@
 #include "Maths.h"
 #include <math.h>
 
+
+#define Pi 3.14f
+#define HalfCircleDeg 180
+
 float MathUtils::toRad(float Deg)
 {
-	float radian = Deg * 3.14f / 180;
+	float radian = Deg * Pi / HalfCircleDeg;
 	
 	return radian;
 }
 
 float MathUtils::toDeg(float Rad)
 {
-	float degrees = Rad * 180 / 3.14f;
+	float degrees = Rad * HalfCircleDeg / Pi;
 	
 	return degrees;
 }
