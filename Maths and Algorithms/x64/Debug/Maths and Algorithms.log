@@ -1,1 +1,11 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(439,5): error MSB8020: The build tools for v143 (Platform Toolset = 'v143') cannot be found. To build using the v143 build tools, please install v143 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  Maths and Algorithms.cpp
+  Maths.cpp
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(21,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(28,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(35,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(42,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(49,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(56,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(63,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Maths and Algorithms.vcxproj -> C:\Users\Administrator\Desktop\MathsAndAlgorithms\x64\Debug\Maths and Algorithms.exe

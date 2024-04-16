@@ -9,6 +9,8 @@
 #include <math.h>
 #include <algorithm>
 
+#include "Maths.cpp"
+
 
 int main()
 {
@@ -16,6 +18,8 @@ int main()
     //vector
     //add
     //subtract
+
+   // std::cout << MathUtils::FindHyp(40, 10);
 }
 
 
