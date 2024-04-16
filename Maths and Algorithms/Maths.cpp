@@ -29,42 +29,42 @@ float MathUtils::Pythagoras(float A, float B)
 
 float MathUtils::FindSinTheta(float A, float B)
 {
-	float Sin = sin(A / B);
+	float Sin = toDeg(asinf(A / B));
 	
 	return Sin;
 }
 
 float MathUtils::FindCosTheta(float A, float B)
 {
-	float Cos = cos(A / B);
+	float Cos = toDeg(acosf(A / B));
 	
 	return Cos;
 }
 
 float MathUtils::FindTanTheta(float A, float B)
 {
-	float Tan = tan(A / B);
+	float Tan = toDeg(atanf(A / B));
 
 	return Tan;
 }
 
 float MathUtils::FindHyp(float Angle, float B)
 {
-	float hyp = B / sin(Angle);	
+	float hyp = B / toDeg(sin(Angle));	
 	
 	return hyp;
 }
 
 float MathUtils::FindOpp(float Angle, float B)
 {
-	float opp = B * sin(Angle);
+	float opp = B * toDeg(sin(Angle));
 	
 	return opp;
 }
 
 float MathUtils::FindAdj(float Angle, float B)
 {
-	float adj = B / tan(Angle);
+	float adj = B / toDeg(tan(Angle));
 	
 	return adj;
 }

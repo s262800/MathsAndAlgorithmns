@@ -1,11 +1,8 @@
 ﻿  Maths and Algorithms.cpp
   Maths.cpp
 C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(25,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(32,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(39,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(46,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(53,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(60,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(67,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(53,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(60,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Administrator\Desktop\MathsAndAlgorithms\Maths and Algorithms\Maths.cpp(67,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating Code...
   Maths and Algorithms.vcxproj -> C:\Users\Administrator\Desktop\MathsAndAlgorithms\x64\Debug\Maths and Algorithms.exe
