@@ -7,22 +7,30 @@ template <typename T>
 class Stack
 {
 public:
+    Stack();
+
     T* Data;
     size_t Size;
+
+    int index = 0;
 
     T Pop();
     T Peek();
     void Push(T dataToPush);
-
+    
 };
 
 template <typename T>
 class Queue
 {
 public:
+    Queue();
+
 
     T* Data;
     size_t Size;
+
+    int index = 0;
 
     T Pop();
     T Peek();
@@ -52,4 +60,5 @@ public:
     void HeapifyUp(); //bubble Up
     void HeapifyDown(); //Bubble Down;
 };
+
 
