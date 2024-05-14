@@ -7,25 +7,34 @@ class Matrix
 public:
 	//this is a 3 x 3
 
-	float Data[3][3] ;
+	float Data[3][3];
+
+	float xRotationData[3][3];
+	float yRotationData[3][3];
+	float zRotationData[3][3];
 
 	float Determinate();
 
-	void RotateAroundX(float Angle);
-	void RotateAroundY(float Angle);
-	void RotateAroundZ(float Angle);
+	void SetRotateAroundX(float Angle);
+	void SetRotateAroundY(float Angle);
+	void SetRotateAroundZ(float Angle);
 
-	void Translate(Vector Delta);
 
-	void RotateAroundX(Vector Point, float Angle);
-	void RotateAroundY(Vector Point, float Angle);
-	void RotateAroundZ(Vector Point, float Angle);
+	Vector RotateAroundX(Vector Point, float Angle);
+	Vector RotateAroundY(Vector Point, float Angle);
+	Vector RotateAroundZ(Vector Point, float Angle);
 
 	Matrix operator* (Matrix& RHS)
 	{
 		Matrix& LHS = *this;
 
 		//fill this in to multiply Matrix LHS by Matrix RHS
+	}
+	Vector operator* (Vector& RHS)
+	{
+		Matrix& LHS = *this;
+
+		//fill this in to multiply Matrix LHS by Vector RHS
 	}
 
 };
