@@ -19,7 +19,8 @@ int main()
     //add
     //subtract
 
-   // std::cout << MathUtils::FindHyp(40, 10);
+   // std::cout << MathUtils::FindHyp(40, 10
+
 }
 
 
