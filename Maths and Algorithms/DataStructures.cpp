@@ -21,7 +21,7 @@ inline T Stack<T>::Pop()
 template<typename T>
 inline T Stack<T>::Peek()
 {
-    return Data[Size];
+    return Data[Size - 1];
 }
 
 template<typename T>
