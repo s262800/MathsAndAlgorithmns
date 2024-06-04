@@ -27,7 +27,20 @@ int* Algorithms::BubbleSort(int* Data, size_t Size)
 
 int* Algorithms::InsesrtionSort(int* Data, size_t Size)
 {
-	return nullptr;
+	int j;
+	
+	for (int i = 1; i < Size; i++) 
+	{	
+		j = i - 1;
+		
+		while (j >= 0 && Data[j] > Data[i]) 
+		{
+			Data[j + 1] = Data[j];
+			j = j - 1;
+		}
+
+		Data[j + 1] = Data[i];
+	}
 }
 
 int* Algorithms::SelectionSort(int* Data, size_t Size)
